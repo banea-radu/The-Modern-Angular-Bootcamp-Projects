@@ -1,0 +1,12 @@
+/* if developer did not supply a custom button from the parent component, then hide the div with this class */
+.actions:empty {
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}
