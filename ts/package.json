@@ -1,0 +1,20 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --no-notify --respawn index.ts",
+    "interfaces": "ts-node-dev --no-notify --respawn interfaces.ts",
+    "classes": "ts-node-dev --no-notify --respawn classes.ts",
+    "decorators": "ts-node-dev --no-notify --respawn decorators.ts",
+    "modules": "ts-node-dev --no-notify --respawn modules.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
