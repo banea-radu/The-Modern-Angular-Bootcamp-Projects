@@ -1,0 +1,5 @@
+{
+    "username": "radubanea",
+    "password": "angularCourse",
+    "passwordConfirmation": "angularCourse"
+}
