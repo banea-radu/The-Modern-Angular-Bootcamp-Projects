@@ -1,0 +1,16 @@
+<div
+    *ngFor="let message of messages | async"
+    [ngClass]="message.type === 'error' ? 'alert-danger' : 'alert-success'"
+    class="alert"
+>
+    <div class="d-flex">
+        <div class="toast-body">
+            {{ message.text }}
+        </div>
+        <button
+            (click)="clearMessage(message.id)"
+            type="button"
+            class="btn-close me-2 m-auto">
+        </button>
+    </div>
+</div>
